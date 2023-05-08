@@ -1,0 +1,89 @@
+html {
+  background-image: url('https://media.giphy.com/media/3oEjHW3WHSLj6bCcV2/giphy.gif');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  background-color: rgba(0, 55, 255, 0.2);
+  font-family: 'Roboto Mono', monospace;
+  color: #0037ff;
+  font-size: 20px;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #0037ff;
+  font-size: 20px;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilepic {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgb(255, 238, 1);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+  }
+
+  .profilepic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+a:hover {
+  color: aqua;
+}
+
+.card {
+  background-color: white;
+  padding: 80px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgb(255, 238, 1);
+  border-radius: 500px 500px;
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  transition: width 0.9s ease;
+}
+
+.twitter {
+  background-color: white;
+  padding: 80px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgb(255, 238, 1);
+  border-radius: 500px 500px;
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  transition: width 0.9s ease;
+}
+
+.contact {
+  background-color: white;
+  padding: 80px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgb(255, 238, 1);
+  border-radius: 500px 500px;
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  transition: width 0.9s ease;
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: 700px;
+  }
+}
